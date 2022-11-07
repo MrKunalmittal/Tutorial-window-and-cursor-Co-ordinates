@@ -1,0 +1,51 @@
+@import './reset.css';
+ 
+:root {
+ --app-dark-bg: #1a1d28;
+ --app-red: #ff3c57;
+ --app-green: #33ab4e;
+ --app-purple: #833cff;
+ --app-orange: #ff833c;
+ --app-blue: #3c57ff;
+ --app-blue-hover: #364ee6;
+}
+ 
+body {
+ background-color: var(--app-dark-bg);
+}
+ 
+.container {
+ width: min(100% - 30px, 1280px);
+ margin-inline: auto;
+}
+main{
+    padding: 60px 0;;
+}
+
+h3{
+    color: #f4f6f8;
+    text-align: justify;
+}
+
+h2{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: #1a1d28;
+    
+    
+}
+.center{
+    border-color: #f4f6f8;
+    border-radius: 10px;
+    position: absolute;
+    width: 50%;
+    min-width: 350px;
+    max-width: 400px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #dea9a9;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
