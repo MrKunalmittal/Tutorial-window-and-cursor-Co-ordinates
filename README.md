@@ -16,6 +16,13 @@ JavaScript allows us to use different properties to get the Co-ordinates of curs
 ### Windows Height and Width:
 We create a function with name readWindow and then use that window proprty to get the height and width of users window screen.
 ```javascript
+
+const pageW=document.querySelector('.page-w');
+const pageH=document.querySelector('.page-h');
+
+const cursorX=document.querySelector('.cursor-x');
+const cursorY=document.querySelector('.cursor-y');
+
 function readWindow() {
     pageW.innerText = `window width: ${window.innerWidth}px`;
     pageH.innerText = `window height: ${window.innerHeight}px`;
