@@ -14,7 +14,7 @@ JavaScript allows us to use different properties to get the Co-ordinates of curs
 ``` windows.innerWidth & windows.innerHeight Property: returns the user screens width and height in pixels```.
 ## Syntax
 ### Windows Height and Width:
-We create a function name readWindow and then use that window proprty to get the height and width of users window screen.
+We create a function with name readWindow and then use that window proprty to get the height and width of users window screen.
 ```javascript
 function readWindow() {
     pageW.innerText = `window width: ${window.innerWidth}px`;
@@ -23,7 +23,7 @@ function readWindow() {
 ```
 
 ### Cursors Coordinates
-we add document eventListener on mouse and use the event.client property.
+We add document eventListener on mouse and use the event.client property.
 ```javascript
     document.addEventListener('mousemove', (event) => {
     let x=event.clientX;
