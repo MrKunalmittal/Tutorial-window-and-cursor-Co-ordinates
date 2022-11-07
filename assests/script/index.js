@@ -29,6 +29,16 @@ window.addEventListener('resize', () => {
 window.addEventListener('load', () => {
     readWindow();
 });
+document.addEventListener('mousemove', (event) => {
+    let x=event.clientX;
+    let y=event.clientY;
+
+    cursorX.innerText=`Cursor x : ${x}`;
+    cursorY.innerText=`Cursor y : ${y}`;
+
+    
+    
+});
 
 
 

@@ -1,10 +1,11 @@
-## Simple Guessing Game 
+## Tutorial
 
-A simple guessing  game made with JavaScript.
+Windows and Cursors Co-ordinates
+
 
 ### Demo
 
-Click [here](https://mrkunalmittal.github.io/Tutorial-window-and-cursor-Co-ordinates/) to play.
+Click [here](https://mrkunalmittal.github.io/Tutorial-window-and-cursor-Co-ordinates/) to check demo result.
 
 <br />
 
