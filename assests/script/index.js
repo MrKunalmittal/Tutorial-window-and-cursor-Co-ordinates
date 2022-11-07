@@ -41,6 +41,13 @@ document.addEventListener('mousemove', (event) => {
     left: ${x - circle.clientHeight / 2}px; //cente the circle 
     `);
 });
+circle.addEventListener('click', () => {
+    circle.classList.add('wave');
+
+    setTimeout(() => {
+        circle.classList.remove('wave');
+    }, 500);
+});
 
 
 
