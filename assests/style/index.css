@@ -24,7 +24,7 @@ main{
 
 h3{
     color: #f4f6f8;
-    text-align: justify;
+    text-align: center;
 }
 
 h2{
@@ -32,6 +32,7 @@ h2{
     font-weight: 700;
     text-align: center;
     color: #1a1d28;
+
     
     
 }
@@ -45,7 +46,7 @@ h2{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    background-color: #dea9a9;
+    background-color: #6493c9;
     padding: 20px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
