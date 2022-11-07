@@ -36,8 +36,10 @@ document.addEventListener('mousemove', (event) => {
     cursorX.innerText=`Cursor x : ${x}`;
     cursorY.innerText=`Cursor y : ${y}`;
 
-    
-    
+    circle.setAttribute('style',`
+    top: ${y - circle.clientWidth / 2}px;
+    left: ${x - circle.clientHeight / 2}px; //cente the circle 
+    `);
 });
 
 
