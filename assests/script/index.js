@@ -13,7 +13,8 @@ const pageH=document.querySelector('.page-h');
 const cursorX=document.querySelector('.cursor-x');
 const cursorY=document.querySelector('.cursor-y');
 
-const circle=document.querySelector('.circle');
+
+
 
 
 function readWindow() {
