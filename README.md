@@ -34,8 +34,8 @@ we add document eventListener on mouse and use the event.client property.
 });
 ```
 ### References
-[- w3schools](https://www.w3schools.com/jsref/prop_win_innerheight.asp)
-[- Tutorialspoint- window Screen](https://www.tutorialspoint.com/javascript-javascript-bom-window-screen)
+[- w3schools](https://www.w3schools.com/jsref/prop_win_innerheight.asp)<br />
+[- Tutorialspoint- window Screen](https://www.tutorialspoint.com/javascript-javascript-bom-window-screen)<br />
 [- Tutorialspoint - cursor Co-ordinates](https://www.tutorialspoint.com/How-to-find-the-coordinates-of-the-cursor-relative-to-the-screen-with-JavaScript)
 
 ### Demo
