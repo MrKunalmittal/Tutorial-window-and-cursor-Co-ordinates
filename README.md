@@ -32,7 +32,7 @@ function readWindow() {
 ### Cursors Coordinates
 We add document eventListener on mouse and use the event.client property.
 ```javascript
-    document.addEventListener('mousemove', (event) => {
+document.addEventListener('mousemove', (event) => {
     let x=event.clientX;
     let y=event.clientY;
 
