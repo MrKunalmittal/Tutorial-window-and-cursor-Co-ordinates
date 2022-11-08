@@ -1,11 +1,11 @@
 ## Tutorial  📚
 
-### Windows and Cursors Co-ordinates
+### Windows and Cursors Coordinates
 
 
-In this tutorial, we will learn about how to get the window's height, width and the cursors co-ordinates with respect to screen using basic JavaScript. We will find the ```cursors co-ordinates vertically(Y-axsis) and Horizontally (X-axis) relative to the screen```.
+In this tutorial, we will learn about how to get the window's height, width and the cursors coordinates with respect to screen using basic JavaScript. We will find the ```cursors coordinates vertically(Y-axsis) and Horizontally (X-axis) relative to the screen```.
 
-JavaScript allows us to use different properties to get the Co-ordinates of cursor and screen using:
+JavaScript allows us to use different properties to get the Coordinates of cursor and screen using:
     - the event.clientX Property
     - the event.clientY Property
     - the windows.innerWidth Property

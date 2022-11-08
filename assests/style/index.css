@@ -24,17 +24,16 @@ main{
 
 h3{
     color: #f4f6f8;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 h2{
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: center;
     color: #1a1d28;
-
-    
-    
+    margin-bottom: 30px;
 }
 .center{
     border-color: #f4f6f8;
@@ -49,4 +48,5 @@ h2{
     background-color: #6493c9;
     padding: 20px 10px;
     border-radius: 10px;
+    box-shadow: 13px 12px 19px 6px rgba(74,124,196,0.30);
 }

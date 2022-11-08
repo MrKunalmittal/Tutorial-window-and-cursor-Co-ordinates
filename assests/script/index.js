@@ -14,8 +14,8 @@ const cursorX=document.querySelector('.cursor-x');
 const cursorY=document.querySelector('.cursor-y');
 
 function readWindow() {
-    pageW.innerText =  `window width: ${window.innerWidth}px`;
-    pageH.innerText =  `window height: ${window.innerHeight}px`;
+    pageW.innerText =  `Window width: ${window.innerWidth}px`;
+    pageH.innerText =  `Window height: ${window.innerHeight}px`;
 }
 
 window.addEventListener('resize', () => {
@@ -29,8 +29,8 @@ document.addEventListener('mousemove', (event) => {
     let x=event.clientX;
     let y=event.clientY;
 
-    cursorX.innerText=`Cursor x : ${x}`;
-    cursorY.innerText=`Cursor y : ${y}`;
+    cursorX.innerText=`Cursor X : ${x}`;
+    cursorY.innerText=`Cursor Y : ${y}`;
 });
 
 
