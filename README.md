@@ -24,8 +24,8 @@ const cursorX=document.querySelector('.cursor-x');
 const cursorY=document.querySelector('.cursor-y');
 
 function readWindow() {
-    pageW.innerText = `window width: ${window.innerWidth}px`;
-    pageH.innerText = `window height: ${window.innerHeight}px`;
+    pageW.innerText = `window Width: ${window.innerWidth}px`;
+    pageH.innerText = `window Height: ${window.innerHeight}px`;
 }
 ```
 
@@ -36,8 +36,8 @@ document.addEventListener('mousemove', (event) => {
     let x=event.clientX;
     let y=event.clientY;
 
-    cursorX.innerText=`Cursor x : ${x}`;
-    cursorY.innerText=`Cursor y : ${y}`;
+    cursorX.innerText=`Cursor X : ${x}`;
+    cursorY.innerText=`Cursor Y : ${y}`;
 });
 ```
 ### References
